@@ -1,0 +1,16 @@
+{
+    
+    "python.pythonPath": "c:\\Users\\fantv\\Documents\\Python\\virtualenv\\db\\Scripts\\python.exe",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".\\src\\db",
+        "-p",
+        "Test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    
+    "python.analysis.extraPaths": ["./src/db"]
+}
