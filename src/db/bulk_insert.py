@@ -1,5 +1,4 @@
 import logging
-import pyodbc 
 import glob
 from time import time
 
