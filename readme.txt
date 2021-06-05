@@ -15,3 +15,4 @@ Check GIT repo for these files (bin/Debug folder content) - they were there => i
 Locally delete these files and commit and push (narrow the GIT files with .gitignore definitions)
 (Optional) Restart Visual studio and perform Pull
 Repository and VS seems now to be in consistent state
+Test
