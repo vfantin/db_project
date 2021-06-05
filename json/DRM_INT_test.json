@@ -1,0 +1,12 @@
+{
+    "test_set_name": "public_view",
+    "db_name": "DRM_INT",
+    "lst": [
+        {
+            "object_name": "cdpq.v_sous_jacents_fonds_placement_prive",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM cdpq.v_sous_jacents_fonds_placement_prive"
+            }
+        }
+          ]
+}

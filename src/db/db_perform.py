@@ -1,83 +1,63 @@
 
-import logging
+import logging.config
 import jsonpickle
-    
+import argparse
+import os
+
 #To be precise
 from datetime import datetime
 
 from db_utils import execute_sql, fetch_sql
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-class TestDbObject():
-
-    def __init__(self, name):
-        self.name = name
-        self.requests = dict()
-
-    @classmethod
-    def init_max_request(cls, name, field, sql_type):
-        obj = cls(name)
-        obj.add_request(f'SELECT MAX({field}) FROM {name}', sql_type)
-        return obj   
-
-    def add_request(self, sql, test_type = 'Unknow'):
-        self.requests[test_type] = sql
-
-    def add_request(self, sql, test_type = 'Unknow'):
-        self.requests[test_type] = sql
-
-    def get_request(self, test_type):
-        return self.requests[test_type]
-
-#Build a file with MAX request on base_file_date field  for DRM_INT DB
-# Maybe we can find the name of the field dynamically ??   
-def build_drmt_int(file_path):
-    
-    results = fetch_sql('DRM_INT','SELECT CONCAT(TABLE_SCHEMA,\'.\',TABLE_NAME)'\
-        ' AS TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS ORDER BY TABLE_SCHEMA,TABLE_NAME')
-    
-    tests = [ TestDbObject.init_max_request(row.TABLE_NAME,'base_file_date','max_main_index') for row in results ]
-    
-    with open(file_path,'w') as f:        
-        f.write(jsonpickle.encode(tests, unpicklable=False, indent=4))
+#logger = logging.getLogger(__name__) ... __name__ = __main__ not very pretty
+logger = logging.getLogger(os.path.basename(__file__).split('.')[0])
 
 def execute_test(file_path):
 
-    save_result = 'INSERT INTO [control].[PerformanceResults] VALUES (?,?,?,?,?,?,?,?)'
-    bd = 'DRM_INT'
-    request_type = 'max_main_index'
+    db_save = 'DRM_DV1_CTL'
+    save_result = 'INSERT INTO [control].[PerformanceResults2] VALUES (?,?,?,?,?,?,?,?,?)'
+    
+    batch_guid = ''
 
     with open(file_path,'r') as f:
-        tests = jsonpickle.decode(f.read())
+        tst_set = jsonpickle.decode(f.read())
     
-    #Add an execution date
-    for batch_id in range(1,6):
-        for test in tests:
-            
-            obj_name = test['name']
-            request = test['requests'][request_type]
+    db_name = tst_set['db_name']
+    test_set_name = tst_set['test_set_name']
 
+    for test in tst_set['lst']:
+        
+        obj_name = test['object_name']
+        for rq_name in test['requests']:
+            rq = test['requests'][rq_name]   
+            
             start = datetime.now()
-            res = fetch_sql(bd,request)
+            res = fetch_sql(db_name,rq)
             end = datetime.now()
-            
             execution_time = (end - start).total_seconds()
+            
             sql_time = start.strftime("%Y-%m-%d %H:%M:%S.%f")
-            
-            execute_sql('DRM_DV1_CTL', save_result, \
-                        [[batch_id,bd,obj_name,request_type,request,res[0][0],execution_time,sql_time]], \
-                        False)
-            
-            logging.info(f'Select {obj_name} in {execution_time:02f}')
+            if( batch_guid == ''): batch_guid = sql_time
+
+            execute_sql(db_save, save_result, \
+                         [[batch_guid,test_set_name,db_name,obj_name,rq_name,rq,res[0][0],execution_time,sql_time]], \
+                         True)
+            logger.info(f'Select {obj_name}-{rq_name} in {execution_time:02f}')
 
 def main():
     
-    build_drmt_int(fr'.\sql\drmt_int.json')
-   
-    
-    #execute_test(fr'.\sql\drmt_int_adjust.json')
+    #https://docs.python.org/fr/3/howto/argparse.html    
+    parser = argparse.ArgumentParser(description='Test db performace.')
+    parser.add_argument('json_path', help='The json config file to use.')
+    parser.add_argument('log_path', help='The log config file to use.')
+    parser.add_argument('-n', type=int, default=1, help='Number of times you want to execute test.')
+    args = parser.parse_args()
 
+    logging.config.fileConfig(fname=args.log_path)
+    
+    for i in range(args.n):
+        logger.info(f'Start to run {args.json_path} ({i+1}/{args.n})')
+        execute_test(args.json_path)
+        
 if __name__ == "__main__":
     main()

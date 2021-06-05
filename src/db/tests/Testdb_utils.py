@@ -57,10 +57,24 @@ class Testdb_utils(unittest.TestCase):
         res = fetch_sql(self.db_name,'SELECT * FROM TEST1')
         self.assertEqual(len(res),4)
 
+        #Add an Exception to Raise ?
+        #res = fetch_sql(self.db_name,'SELECT * FROM TOTO')
+        #Add a test to perform with wait_until_the_end
+        #self.assertRaises(Exception,execute_sql,self.db_name,'SELECT * FROM TOTO')
+
         res = execute_sql(self.db_name,'DROP TABLE IF EXISTS TEST1')
         
+        res = fetch_sql(self.db_name,'SELECT 1')
+        self.assertEqual(res[0][0],1)
+
         cnxn.rollback();
 
+    def test_manage_exception(self):
+        #res = fetch_sql(self.db_name,'SELECT * FROM TOTO')
+        #Add a test to perform with wait_until_the_end
+        self.assertRaises(Exception,fetch_sql,self.db_name,'SELECT * FROM TOTO')
+
+        self.assertRaises(Exception,execute_sql,self.db_name,'SELECT * FROM TOTO')
 
     def test_fetch_sql(self):
         

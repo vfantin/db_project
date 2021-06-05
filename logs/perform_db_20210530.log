@@ -1,0 +1,210 @@
+21704 - 2021-05-30 23:16:03,640 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (1/1)
+21704 - 2021-05-30 23:16:03,641 - db_utils - INFO - Open a connexion DRM_INT
+21704 - 2021-05-30 23:16:03,852 - db_utils - INFO - Open a connexion DRM_DV1_CTL
+21704 - 2021-05-30 23:16:04,113 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.210839
+21704 - 2021-05-30 23:16:04,115 - db_utils - INFO - Close connexion DRM_INT
+21704 - 2021-05-30 23:16:04,157 - db_utils - INFO - Close connexion DRM_DV1_CTL
+8240 - 2021-05-30 23:19:13,343 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (1/100)
+8240 - 2021-05-30 23:19:13,344 - db_utils - INFO - Open a connexion DRM_INT
+8240 - 2021-05-30 23:19:13,562 - db_utils - INFO - Open a connexion DRM_DV1_CTL
+8240 - 2021-05-30 23:19:13,729 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.217650
+8240 - 2021-05-30 23:19:13,729 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (2/100)
+8240 - 2021-05-30 23:19:13,773 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009645
+8240 - 2021-05-30 23:19:13,773 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (3/100)
+8240 - 2021-05-30 23:19:13,820 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015160
+8240 - 2021-05-30 23:19:13,821 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (4/100)
+8240 - 2021-05-30 23:19:13,869 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012083
+8240 - 2021-05-30 23:19:13,870 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (5/100)
+8240 - 2021-05-30 23:19:13,917 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014165
+8240 - 2021-05-30 23:19:13,917 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (6/100)
+8240 - 2021-05-30 23:19:13,965 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015957
+8240 - 2021-05-30 23:19:13,966 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (7/100)
+8240 - 2021-05-30 23:19:14,006 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009242
+8240 - 2021-05-30 23:19:14,006 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (8/100)
+8240 - 2021-05-30 23:19:14,056 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015922
+8240 - 2021-05-30 23:19:14,057 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (9/100)
+8240 - 2021-05-30 23:19:14,104 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012930
+8240 - 2021-05-30 23:19:14,105 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (10/100)
+8240 - 2021-05-30 23:19:14,153 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.011968
+8240 - 2021-05-30 23:19:14,153 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (11/100)
+8240 - 2021-05-30 23:19:14,219 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.032910
+8240 - 2021-05-30 23:19:14,220 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (12/100)
+8240 - 2021-05-30 23:19:14,271 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014058
+8240 - 2021-05-30 23:19:14,272 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (13/100)
+8240 - 2021-05-30 23:19:14,315 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010112
+8240 - 2021-05-30 23:19:14,315 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (14/100)
+8240 - 2021-05-30 23:19:14,357 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013978
+8240 - 2021-05-30 23:19:14,358 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (15/100)
+8240 - 2021-05-30 23:19:14,408 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010023
+8240 - 2021-05-30 23:19:14,410 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (16/100)
+8240 - 2021-05-30 23:19:14,466 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008983
+8240 - 2021-05-30 23:19:14,467 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (17/100)
+8240 - 2021-05-30 23:19:14,512 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008976
+8240 - 2021-05-30 23:19:14,512 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (18/100)
+8240 - 2021-05-30 23:19:14,558 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010008
+8240 - 2021-05-30 23:19:14,559 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (19/100)
+8240 - 2021-05-30 23:19:14,608 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013970
+8240 - 2021-05-30 23:19:14,609 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (20/100)
+8240 - 2021-05-30 23:19:14,658 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012936
+8240 - 2021-05-30 23:19:14,659 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (21/100)
+8240 - 2021-05-30 23:19:14,709 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012969
+8240 - 2021-05-30 23:19:14,710 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (22/100)
+8240 - 2021-05-30 23:19:14,769 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016461
+8240 - 2021-05-30 23:19:14,769 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (23/100)
+8240 - 2021-05-30 23:19:14,816 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014815
+8240 - 2021-05-30 23:19:14,817 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (24/100)
+8240 - 2021-05-30 23:19:14,866 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012965
+8240 - 2021-05-30 23:19:14,867 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (25/100)
+8240 - 2021-05-30 23:19:14,915 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008971
+8240 - 2021-05-30 23:19:14,916 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (26/100)
+8240 - 2021-05-30 23:19:14,957 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008995
+8240 - 2021-05-30 23:19:14,957 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (27/100)
+8240 - 2021-05-30 23:19:15,006 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013509
+8240 - 2021-05-30 23:19:15,007 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (28/100)
+8240 - 2021-05-30 23:19:15,055 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009974
+8240 - 2021-05-30 23:19:15,055 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (29/100)
+8240 - 2021-05-30 23:19:15,117 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013618
+8240 - 2021-05-30 23:19:15,117 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (30/100)
+8240 - 2021-05-30 23:19:15,171 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016981
+8240 - 2021-05-30 23:19:15,171 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (31/100)
+8240 - 2021-05-30 23:19:15,211 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013930
+8240 - 2021-05-30 23:19:15,212 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (32/100)
+8240 - 2021-05-30 23:19:15,255 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008132
+8240 - 2021-05-30 23:19:15,256 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (33/100)
+8240 - 2021-05-30 23:19:15,300 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008976
+8240 - 2021-05-30 23:19:15,301 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (34/100)
+8240 - 2021-05-30 23:19:15,348 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012031
+8240 - 2021-05-30 23:19:15,349 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (35/100)
+8240 - 2021-05-30 23:19:15,399 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.011946
+8240 - 2021-05-30 23:19:15,400 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (36/100)
+8240 - 2021-05-30 23:19:15,458 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.011955
+8240 - 2021-05-30 23:19:15,458 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (37/100)
+8240 - 2021-05-30 23:19:15,507 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010804
+8240 - 2021-05-30 23:19:15,508 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (38/100)
+8240 - 2021-05-30 23:19:15,559 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009316
+8240 - 2021-05-30 23:19:15,560 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (39/100)
+8240 - 2021-05-30 23:19:15,605 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008957
+8240 - 2021-05-30 23:19:15,606 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (40/100)
+8240 - 2021-05-30 23:19:15,658 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013185
+8240 - 2021-05-30 23:19:15,658 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (41/100)
+8240 - 2021-05-30 23:19:15,705 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013001
+8240 - 2021-05-30 23:19:15,705 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (42/100)
+8240 - 2021-05-30 23:19:15,753 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.021622
+8240 - 2021-05-30 23:19:15,753 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (43/100)
+8240 - 2021-05-30 23:19:15,793 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012965
+8240 - 2021-05-30 23:19:15,794 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (44/100)
+8240 - 2021-05-30 23:19:15,861 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.032328
+8240 - 2021-05-30 23:19:15,861 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (45/100)
+8240 - 2021-05-30 23:19:15,900 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008975
+8240 - 2021-05-30 23:19:15,900 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (46/100)
+8240 - 2021-05-30 23:19:15,939 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013961
+8240 - 2021-05-30 23:19:15,939 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (47/100)
+8240 - 2021-05-30 23:19:15,985 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013040
+8240 - 2021-05-30 23:19:15,986 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (48/100)
+8240 - 2021-05-30 23:19:16,031 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016511
+8240 - 2021-05-30 23:19:16,031 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (49/100)
+8240 - 2021-05-30 23:19:16,079 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009159
+8240 - 2021-05-30 23:19:16,080 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (50/100)
+8240 - 2021-05-30 23:19:16,130 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012942
+8240 - 2021-05-30 23:19:16,131 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (51/100)
+8240 - 2021-05-30 23:19:16,184 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009028
+8240 - 2021-05-30 23:19:16,185 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (52/100)
+8240 - 2021-05-30 23:19:16,247 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.018534
+8240 - 2021-05-30 23:19:16,248 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (53/100)
+8240 - 2021-05-30 23:19:16,298 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.021226
+8240 - 2021-05-30 23:19:16,299 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (54/100)
+8240 - 2021-05-30 23:19:16,343 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016956
+8240 - 2021-05-30 23:19:16,343 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (55/100)
+8240 - 2021-05-30 23:19:16,414 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.007181
+8240 - 2021-05-30 23:19:16,415 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (56/100)
+8240 - 2021-05-30 23:19:16,466 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014925
+8240 - 2021-05-30 23:19:16,467 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (57/100)
+8240 - 2021-05-30 23:19:16,516 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010973
+8240 - 2021-05-30 23:19:16,517 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (58/100)
+8240 - 2021-05-30 23:19:16,568 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.017953
+8240 - 2021-05-30 23:19:16,569 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (59/100)
+8240 - 2021-05-30 23:19:16,614 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009969
+8240 - 2021-05-30 23:19:16,615 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (60/100)
+8240 - 2021-05-30 23:19:16,668 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.007979
+8240 - 2021-05-30 23:19:16,668 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (61/100)
+8240 - 2021-05-30 23:19:16,732 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.017188
+8240 - 2021-05-30 23:19:16,733 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (62/100)
+8240 - 2021-05-30 23:19:16,780 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.012935
+8240 - 2021-05-30 23:19:16,780 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (63/100)
+8240 - 2021-05-30 23:19:16,875 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.053860
+8240 - 2021-05-30 23:19:16,876 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (64/100)
+8240 - 2021-05-30 23:19:16,940 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008978
+8240 - 2021-05-30 23:19:16,940 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (65/100)
+8240 - 2021-05-30 23:19:16,984 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016287
+8240 - 2021-05-30 23:19:16,984 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (66/100)
+8240 - 2021-05-30 23:19:17,024 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015346
+8240 - 2021-05-30 23:19:17,025 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (67/100)
+8240 - 2021-05-30 23:19:17,079 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008019
+8240 - 2021-05-30 23:19:17,080 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (68/100)
+8240 - 2021-05-30 23:19:17,128 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008977
+8240 - 2021-05-30 23:19:17,128 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (69/100)
+8240 - 2021-05-30 23:19:17,171 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010973
+8240 - 2021-05-30 23:19:17,172 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (70/100)
+8240 - 2021-05-30 23:19:17,223 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.011011
+8240 - 2021-05-30 23:19:17,225 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (71/100)
+8240 - 2021-05-30 23:19:17,348 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014963
+8240 - 2021-05-30 23:19:17,349 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (72/100)
+8240 - 2021-05-30 23:19:17,397 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010978
+8240 - 2021-05-30 23:19:17,398 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (73/100)
+8240 - 2021-05-30 23:19:17,445 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009934
+8240 - 2021-05-30 23:19:17,446 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (74/100)
+8240 - 2021-05-30 23:19:17,495 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008982
+8240 - 2021-05-30 23:19:17,496 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (75/100)
+8240 - 2021-05-30 23:19:17,559 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014286
+8240 - 2021-05-30 23:19:17,560 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (76/100)
+8240 - 2021-05-30 23:19:17,602 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008075
+8240 - 2021-05-30 23:19:17,602 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (77/100)
+8240 - 2021-05-30 23:19:17,665 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016053
+8240 - 2021-05-30 23:19:17,666 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (78/100)
+8240 - 2021-05-30 23:19:17,725 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.016008
+8240 - 2021-05-30 23:19:17,726 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (79/100)
+8240 - 2021-05-30 23:19:17,772 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010962
+8240 - 2021-05-30 23:19:17,772 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (80/100)
+8240 - 2021-05-30 23:19:17,819 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.014277
+8240 - 2021-05-30 23:19:17,819 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (81/100)
+8240 - 2021-05-30 23:19:17,868 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015958
+8240 - 2021-05-30 23:19:17,868 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (82/100)
+8240 - 2021-05-30 23:19:17,916 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013950
+8240 - 2021-05-30 23:19:17,917 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (83/100)
+8240 - 2021-05-30 23:19:17,965 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.011987
+8240 - 2021-05-30 23:19:17,965 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (84/100)
+8240 - 2021-05-30 23:19:18,012 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013963
+8240 - 2021-05-30 23:19:18,013 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (85/100)
+8240 - 2021-05-30 23:19:18,061 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013516
+8240 - 2021-05-30 23:19:18,062 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (86/100)
+8240 - 2021-05-30 23:19:18,112 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009972
+8240 - 2021-05-30 23:19:18,113 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (87/100)
+8240 - 2021-05-30 23:19:18,164 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.007948
+8240 - 2021-05-30 23:19:18,165 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (88/100)
+8240 - 2021-05-30 23:19:18,213 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009971
+8240 - 2021-05-30 23:19:18,214 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (89/100)
+8240 - 2021-05-30 23:19:18,269 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015667
+8240 - 2021-05-30 23:19:18,270 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (90/100)
+8240 - 2021-05-30 23:19:18,308 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009972
+8240 - 2021-05-30 23:19:18,309 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (91/100)
+8240 - 2021-05-30 23:19:18,357 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009007
+8240 - 2021-05-30 23:19:18,358 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (92/100)
+8240 - 2021-05-30 23:19:18,416 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.022859
+8240 - 2021-05-30 23:19:18,417 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (93/100)
+8240 - 2021-05-30 23:19:18,457 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009972
+8240 - 2021-05-30 23:19:18,458 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (94/100)
+8240 - 2021-05-30 23:19:18,511 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.010221
+8240 - 2021-05-30 23:19:18,511 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (95/100)
+8240 - 2021-05-30 23:19:18,559 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009056
+8240 - 2021-05-30 23:19:18,560 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (96/100)
+8240 - 2021-05-30 23:19:18,629 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.013957
+8240 - 2021-05-30 23:19:18,630 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (97/100)
+8240 - 2021-05-30 23:19:18,686 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.009021
+8240 - 2021-05-30 23:19:18,687 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (98/100)
+8240 - 2021-05-30 23:19:18,755 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.015960
+8240 - 2021-05-30 23:19:18,755 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (99/100)
+8240 - 2021-05-30 23:19:18,810 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.007909
+8240 - 2021-05-30 23:19:18,811 - db_perform - INFO - Start to run .\json\DRM_INT_test.json (100/100)
+8240 - 2021-05-30 23:19:18,856 - db_perform - INFO - Select cdpq.v_sous_jacents_fonds_placement_prive-max_base_file_date in 0.008008
+8240 - 2021-05-30 23:19:18,857 - db_utils - INFO - Close connexion DRM_INT
+8240 - 2021-05-30 23:19:18,880 - db_utils - INFO - Close connexion DRM_DV1_CTL

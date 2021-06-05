@@ -1,0 +1,882 @@
+{
+    "test_set_name": "private_table",
+    "db_name": "DRM_INT",
+    "lst": [
+        {
+            "object_name": "bbgbo.[comdty_option_out]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[comdty_option_out]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[comdty_option_rpx]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[comdty_option_rpx]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[credit_risk]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[credit_risk]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[credit_risk_dbrs_out]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[credit_risk_dbrs_out]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[credit_risk_moody_out]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[credit_risk_moody_out]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[credit_risk_sp_out]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[credit_risk_sp_out]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[equity_gics]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[equity_gics]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[equity_out]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[equity_out]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[equity_px]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[equity_px]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[equity_rpx]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[equity_rpx]"
+            }
+        },
+        {
+            "object_name": "bbgbo.[share_future_px]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM bbgbo.[share_future_px]"
+            }
+        },
+        {
+            "object_name": "cck.[cck_bank_centers]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM cck.[cck_bank_centers]"
+            }
+        },
+        {
+            "object_name": "cck.[cck_currencies]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM cck.[cck_currencies]"
+            }
+        },
+        {
+            "object_name": "cck.[cck_exch_sett]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM cck.[cck_exch_sett]"
+            }
+        },
+        {
+            "object_name": "cck.[cck_exch_trdg]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM cck.[cck_exch_trdg]"
+            }
+        },
+        {
+            "object_name": "data_cdpq.[manual]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_cdpq.[manual]"
+            }
+        },
+        {
+            "object_name": "data_dbrs.[mixed]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_dbrs.[mixed]"
+            }
+        },
+        {
+            "object_name": "data_dbrs.[mixed]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_dbrs.[mixed]"
+            }
+        },
+        {
+            "object_name": "data_ihs_markit.[credit_index_options]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ihs_markit.[credit_index_options]"
+            }
+        },
+        {
+            "object_name": "data_ihs_markit.[equity_volatility]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ihs_markit.[equity_volatility]"
+            }
+        },
+        {
+            "object_name": "data_ihs_markit.[equity_volatility]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ihs_markit.[equity_volatility]"
+            }
+        },
+        {
+            "object_name": "data_innocap.[notional_funding]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_innocap.[notional_funding]"
+            }
+        },
+        {
+            "object_name": "data_ipd.[ivanhoe_cambridge_proxy_benchmark]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ipd.[ivanhoe_cambridge_proxy_benchmark]"
+            }
+        },
+        {
+            "object_name": "data_ivanhoe_cambridge.[frais_administratifs]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ivanhoe_cambridge.[frais_administratifs]"
+            }
+        },
+        {
+            "object_name": "data_ivanhoe_cambridge.[giliberto_levy_rterm]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ivanhoe_cambridge.[giliberto_levy_rterm]"
+            }
+        },
+        {
+            "object_name": "data_ivanhoe_cambridge.[lci_carbone]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ivanhoe_cambridge.[lci_carbone]"
+            }
+        },
+        {
+            "object_name": "data_ivanhoe_cambridge.[lci_carbone_trimestriel]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ivanhoe_cambridge.[lci_carbone_trimestriel]"
+            }
+        },
+        {
+            "object_name": "data_ivanhoe_cambridge.[mortgage_spreads]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ivanhoe_cambridge.[mortgage_spreads]"
+            }
+        },
+        {
+            "object_name": "data_lch.[inflation_seasonality]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_lch.[inflation_seasonality]"
+            }
+        },
+        {
+            "object_name": "data_lch.[vm_inflation_curve]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_lch.[vm_inflation_curve]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_attribute]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_attribute]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_identifier]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_identifier]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_instrument]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_instrument]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_market]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_market]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_organization]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_organization]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_rating]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_rating]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_rating_attribute]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_rating_attribute]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_support]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_support]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[instruments_watchlist]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[instruments_watchlist]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_alias]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_alias]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_attribute]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_attribute]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_identifier]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_identifier]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_market]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_market]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_organization]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_organization]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_rating]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_rating]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_rating_attribute]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_rating_attribute]"
+            }
+        },
+        {
+            "object_name": "data_moodys.[organizations_watchlist]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_moodys.[organizations_watchlist]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[equity_constituent_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[equity_constituent_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[equity_constituent_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[equity_constituent_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[equity_index_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[equity_index_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[equity_index_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[equity_index_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[fixed_income_constituent_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[fixed_income_constituent_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[fixed_income_constituent_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[fixed_income_constituent_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[fixed_income_index_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[fixed_income_index_level]"
+            }
+        },
+        {
+            "object_name": "data_rimes.[fixed_income_index_level]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_rimes.[fixed_income_index_level]"
+            }
+        },
+        {
+            "object_name": "data_ssgx.[gx_private_equity_index]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ssgx.[gx_private_equity_index]"
+            }
+        },
+        {
+            "object_name": "data_ssgx.[gxpei_holding_company_hq_exposure_weight]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_ssgx.[gxpei_holding_company_hq_exposure_weight]"
+            }
+        },
+        {
+            "object_name": "data_trucost.[compffe_cpucpcu_allyr]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_trucost.[compffe_cpucpcu_allyr]"
+            }
+        },
+        {
+            "object_name": "data_trucost.[env_mucu_allyr]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_trucost.[env_mucu_allyr]"
+            }
+        },
+        {
+            "object_name": "data_trucost.[sectorrev_cpucpcu_allyr]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_trucost.[sectorrev_cpucpcu_allyr]"
+            }
+        },
+        {
+            "object_name": "data_tullett.[atm_swaptions_skews]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_tullett.[atm_swaptions_skews]"
+            }
+        },
+        {
+            "object_name": "data_tullett.[cap_floor_surfaces]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_tullett.[cap_floor_surfaces]"
+            }
+        },
+        {
+            "object_name": "data_tullett.[global_grid_ii_swaption_skews]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM data_tullett.[global_grid_ii_swaption_skews]"
+            }
+        },
+        {
+            "object_name": "dss.[interest_rate]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM dss.[interest_rate]"
+            }
+        },
+        {
+            "object_name": "dss.[wm_fx_fwd_rate]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM dss.[wm_fx_fwd_rate]"
+            }
+        },
+        {
+            "object_name": "dss.[wm_fx_spot_rate]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM dss.[wm_fx_spot_rate]"
+            }
+        },
+        {
+            "object_name": "jpm.[embig_composition]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM jpm.[embig_composition]"
+            }
+        },
+        {
+            "object_name": "jpm.[embig_sub_index]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM jpm.[embig_sub_index]"
+            }
+        },
+        {
+            "object_name": "jpm.[fcembig_xquasi_ig]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM jpm.[fcembig_xquasi_ig]"
+            }
+        },
+        {
+            "object_name": "jpm.[gbi_composition]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM jpm.[gbi_composition]"
+            }
+        },
+        {
+            "object_name": "jpm.[gbi_sub_index]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM jpm.[gbi_sub_index]"
+            }
+        },
+        {
+            "object_name": "jpm.[levrg_loan_index_weight_spread]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM jpm.[levrg_loan_index_weight_spread]"
+            }
+        },
+        {
+            "object_name": "merrill.[composition]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM merrill.[composition]"
+            }
+        },
+        {
+            "object_name": "merrill.[corp]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM merrill.[corp]"
+            }
+        },
+        {
+            "object_name": "merrill.[corp_prelim]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM merrill.[corp_prelim]"
+            }
+        },
+        {
+            "object_name": "merrill.[index_summary]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM merrill.[index_summary]"
+            }
+        },
+        {
+            "object_name": "merrill.[index_total_return]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM merrill.[index_total_return]"
+            }
+        },
+        {
+            "object_name": "merrill.[yield_curve]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM merrill.[yield_curve]"
+            }
+        },
+        {
+            "object_name": "msci.[currency_rate]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[currency_rate]"
+            }
+        },
+        {
+            "object_name": "msci.[dividend]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[dividend]"
+            }
+        },
+        {
+            "object_name": "msci.[esg_ratings_environment]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[esg_ratings_environment]"
+            }
+        },
+        {
+            "object_name": "msci.[esg_ratings_governance]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[esg_ratings_governance]"
+            }
+        },
+        {
+            "object_name": "msci.[esg_ratings_social]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[esg_ratings_social]"
+            }
+        },
+        {
+            "object_name": "msci.[index_country_region]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[index_country_region]"
+            }
+        },
+        {
+            "object_name": "msci.[index_country_weight]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[index_country_weight]"
+            }
+        },
+        {
+            "object_name": "msci.[index_report]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[index_report]"
+            }
+        },
+        {
+            "object_name": "msci.[security]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[security]"
+            }
+        },
+        {
+            "object_name": "msci.[security_small_cap]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM msci.[security_small_cap]"
+            }
+        },
+        {
+            "object_name": "mstar.[corporate_action]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[corporate_action]"
+            }
+        },
+        {
+            "object_name": "mstar.[datawarehouse_holding_detail]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[datawarehouse_holding_detail]"
+            }
+        },
+        {
+            "object_name": "mstar.[datawarehouse_operation_partial]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[datawarehouse_operation_partial]"
+            }
+        },
+        {
+            "object_name": "mstar.[datawarehouse_sedol_official_listing]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[datawarehouse_sedol_official_listing]"
+            }
+        },
+        {
+            "object_name": "mstar.[datawarehouse_trading_exchange]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[datawarehouse_trading_exchange]"
+            }
+        },
+        {
+            "object_name": "mstar.[etf_holding_aggregate]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[etf_holding_aggregate]"
+            }
+        },
+        {
+            "object_name": "mstar.[etf_holding_detail]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[etf_holding_detail]"
+            }
+        },
+        {
+            "object_name": "mstar.[etf_investment_vehicle]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[etf_investment_vehicle]"
+            }
+        },
+        {
+            "object_name": "mstar.[etf_package_header]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[etf_package_header]"
+            }
+        },
+        {
+            "object_name": "mstar.[etf_portfolio]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[etf_portfolio]"
+            }
+        },
+        {
+            "object_name": "mstar.[etf_portfolio_breakdown]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[etf_portfolio_breakdown]"
+            }
+        },
+        {
+            "object_name": "mstar.[index_close]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[index_close]"
+            }
+        },
+        {
+            "object_name": "mstar.[index_open]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[index_open]"
+            }
+        },
+        {
+            "object_name": "mstar.[security_close]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[security_close]"
+            }
+        },
+        {
+            "object_name": "mstar.[security_open]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM mstar.[security_open]"
+            }
+        },
+        {
+            "object_name": "russell.[constituent_day]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM russell.[constituent_day]"
+            }
+        },
+        {
+            "object_name": "russell.[constituent_month]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM russell.[constituent_month]"
+            }
+        },
+        {
+            "object_name": "russell.[index]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM russell.[index]"
+            }
+        },
+        {
+            "object_name": "snp.[discounted_spreads_middle_market]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[discounted_spreads_middle_market]"
+            }
+        },
+        {
+            "object_name": "snp.[discounted_spreads_sl_b_rated]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[discounted_spreads_sl_b_rated]"
+            }
+        },
+        {
+            "object_name": "snp.[discounted_spreads_stm_by_narrow_rating]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[discounted_spreads_stm_by_narrow_rating]"
+            }
+        },
+        {
+            "object_name": "snp.[elli_discounted_spreads]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[elli_discounted_spreads]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_AssessmentData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_AssessmentData]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_AssessmentLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_AssessmentLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_EntityLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_EntityLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_EntitySector]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_EntitySector]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_IndustryChar]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_IndustryChar]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_InstrumentLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_InstrumentLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_InstrumentSector]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_InstrumentSector]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_InstrumentToEntity]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_InstrumentToEntity]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_RatingData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_RatingData]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_RatingIdentifier]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_RatingIdentifier]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_RatingLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_RatingLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GISF_SecurityLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GISF_SecurityLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_AssessmentData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_AssessmentData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_AssessmentLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_AssessmentLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_EntityLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_EntityLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_EntitySector]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_EntitySector]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_IndustryChar]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_IndustryChar]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_InstrumentLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_InstrumentLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_InstrumentSector]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_InstrumentSector]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_InstrumentToEntity]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_InstrumentToEntity]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_RatingData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_RatingData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_RatingIdentifier]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_RatingIdentifier]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_RatingLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_RatingLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[GSIF_SecurityLevelData]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[GSIF_SecurityLevelData]"
+            }
+        },
+        {
+            "object_name": "snp.[index_detail_adjusted]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[index_detail_adjusted]"
+            }
+        },
+        {
+            "object_name": "snp.[index_detail_close]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[index_detail_close]"
+            }
+        },
+        {
+            "object_name": "snp.[index_summary]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[index_summary]"
+            }
+        },
+        {
+            "object_name": "snp.[spbdal_spllc]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.[spbdal_spllc]"
+            }
+        },
+        {
+            "object_name": "tmx.[dex_maple_overall_bond_index_constituent]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[dex_maple_overall_bond_index_constituent]"
+            }
+        },
+        {
+            "object_name": "tmx.[dex_money_market_index_summary]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[dex_money_market_index_summary]"
+            }
+        },
+        {
+            "object_name": "tmx.[dex_real_return_bond_index_constituent]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[dex_real_return_bond_index_constituent]"
+            }
+        },
+        {
+            "object_name": "tmx.[dex_real_return_bond_index_summary]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[dex_real_return_bond_index_summary]"
+            }
+        },
+        {
+            "object_name": "tmx.[dex_universe_bond_index_constituent]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[dex_universe_bond_index_constituent]"
+            }
+        },
+        {
+            "object_name": "tmx.[dex_universe_bond_index_summary]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[dex_universe_bond_index_summary]"
+            }
+        },
+        {
+            "object_name": "tmx.[scmhpdom]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[scmhpdom]"
+            }
+        },
+        {
+            "object_name": "tmx.[smiquote]",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tmx.[smiquote]"
+            }
+        }
+    ]
+}

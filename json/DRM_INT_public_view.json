@@ -1,0 +1,882 @@
+{
+    "test_set_name": "public_view",
+    "db_name": "DRM_INT",
+    "lst": [
+        {
+            "object_name": "cdpq.v_sous_jacents_fonds_placement_prive",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM cdpq.v_sous_jacents_fonds_placement_prive"
+            }
+        },
+        {
+            "object_name": "dbrs.v_dbpri",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM dbrs.v_dbpri"
+            }
+        },
+        {
+            "object_name": "dbrs.v_mbprf",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM dbrs.v_mbprf"
+            }
+        },
+        {
+            "object_name": "ihs_markit.v_credit_index_options",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ihs_markit.v_credit_index_options"
+            }
+        },
+        {
+            "object_name": "ihs_markit.v_equity_volatility_fixed_maturity",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ihs_markit.v_equity_volatility_fixed_maturity"
+            }
+        },
+        {
+            "object_name": "ihs_markit.v_equity_volatility_floating_maturity",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ihs_markit.v_equity_volatility_floating_maturity"
+            }
+        },
+        {
+            "object_name": "innocap.v_notional_funding",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM innocap.v_notional_funding"
+            }
+        },
+        {
+            "object_name": "ipd.v_ivanhoe_cambridge_proxy_benchmark",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ipd.v_ivanhoe_cambridge_proxy_benchmark"
+            }
+        },
+        {
+            "object_name": "ivanhoe_cambridge.v_frais_administratifs",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ivanhoe_cambridge.v_frais_administratifs"
+            }
+        },
+        {
+            "object_name": "ivanhoe_cambridge.v_Giliberto_Levy_Rterm",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ivanhoe_cambridge.v_Giliberto_Levy_Rterm"
+            }
+        },
+        {
+            "object_name": "ivanhoe_cambridge.v_lci_carbone",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ivanhoe_cambridge.v_lci_carbone"
+            }
+        },
+        {
+            "object_name": "ivanhoe_cambridge.v_lci_carbone_trimestriel",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ivanhoe_cambridge.v_lci_carbone_trimestriel"
+            }
+        },
+        {
+            "object_name": "ivanhoe_cambridge.v_mortgage_spreads",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ivanhoe_cambridge.v_mortgage_spreads"
+            }
+        },
+        {
+            "object_name": "lch.v_inflation_seasonality",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM lch.v_inflation_seasonality"
+            }
+        },
+        {
+            "object_name": "lch.v_vm_inflation_curve",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM lch.v_vm_inflation_curve"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_attribute",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_attribute"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_identifier",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_identifier"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_instrument",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_instrument"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_market",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_market"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_organization",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_organization"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_rating",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_rating"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_rating_attribute",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_rating_attribute"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_support",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_support"
+            }
+        },
+        {
+            "object_name": "moodys.v_instruments_watchlist",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_instruments_watchlist"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_alias",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_alias"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_attribute",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_attribute"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_identifier",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_identifier"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_market",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_market"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_organization",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_organization"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_rating",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_rating"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_rating_attribute",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_rating_attribute"
+            }
+        },
+        {
+            "object_name": "moodys.v_organizations_watchlist",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM moodys.v_organizations_watchlist"
+            }
+        },
+        {
+            "object_name": "rimes.v_equity_constituent_level",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM rimes.v_equity_constituent_level"
+            }
+        },
+        {
+            "object_name": "rimes.v_equity_index_level",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM rimes.v_equity_index_level"
+            }
+        },
+        {
+            "object_name": "rimes.v_fixed_income_constituent_level",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM rimes.v_fixed_income_constituent_level"
+            }
+        },
+        {
+            "object_name": "rimes.v_fixed_income_index_level",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM rimes.v_fixed_income_index_level"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_comdty_option_out",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_comdty_option_out"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_comdty_option_rpx",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_comdty_option_rpx"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_credit_risk",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_credit_risk"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_credit_risk_dbrs_out",
+            "requests": {
+                "max_date_import": "SELECT MAX(date_import) FROM service_bbgbo.v_credit_risk_dbrs_out"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_credit_risk_moody_out",
+            "requests": {
+                "max_date_import": "SELECT MAX(date_import) FROM service_bbgbo.v_credit_risk_moody_out"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_credit_risk_sp_out",
+            "requests": {
+                "max_date_import": "SELECT MAX(date_import) FROM service_bbgbo.v_credit_risk_sp_out"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_equity_gics",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_equity_gics"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_equity_out",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_equity_out"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_equity_px",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_equity_px"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_equity_rpx",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_equity_rpx"
+            }
+        },
+        {
+            "object_name": "service_bbgbo.v_share_future_px",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_bbgbo.v_share_future_px"
+            }
+        },
+        {
+            "object_name": "service_cck.v_bank_centers",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_cck.v_bank_centers"
+            }
+        },
+        {
+            "object_name": "service_cck.v_currencies",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_cck.v_currencies"
+            }
+        },
+        {
+            "object_name": "service_cck.v_exch_sett",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_cck.v_exch_sett"
+            }
+        },
+        {
+            "object_name": "service_cck.v_exch_trdg",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_cck.v_exch_trdg"
+            }
+        },
+        {
+            "object_name": "service_dss.v_interest_rate",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_dss.v_interest_rate"
+            }
+        },
+        {
+            "object_name": "service_dss.v_wm_fx_fwd_rate",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_dss.v_wm_fx_fwd_rate"
+            }
+        },
+        {
+            "object_name": "service_dss.v_wm_fx_spot_rate",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_dss.v_wm_fx_spot_rate"
+            }
+        },
+        {
+            "object_name": "service_jpm.v_embig_composition",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_jpm.v_embig_composition"
+            }
+        },
+        {
+            "object_name": "service_jpm.v_embig_sub_index",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_jpm.v_embig_sub_index"
+            }
+        },
+        {
+            "object_name": "service_jpm.v_fcembig_xquasi_ig",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_jpm.v_fcembig_xquasi_ig"
+            }
+        },
+        {
+            "object_name": "service_jpm.v_gbi_composition",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_jpm.v_gbi_composition"
+            }
+        },
+        {
+            "object_name": "service_jpm.v_gbi_sub_index",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_jpm.v_gbi_sub_index"
+            }
+        },
+        {
+            "object_name": "service_jpm.v_levrg_loan_index_weight_spread",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_jpm.v_levrg_loan_index_weight_spread"
+            }
+        },
+        {
+            "object_name": "service_merrill.v_composition",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_merrill.v_composition"
+            }
+        },
+        {
+            "object_name": "service_merrill.v_corp",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_merrill.v_corp"
+            }
+        },
+        {
+            "object_name": "service_merrill.v_corp_prelim",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_merrill.v_corp_prelim"
+            }
+        },
+        {
+            "object_name": "service_merrill.v_index_summary",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_merrill.v_index_summary"
+            }
+        },
+        {
+            "object_name": "service_merrill.v_index_total_return",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_merrill.v_index_total_return"
+            }
+        },
+        {
+            "object_name": "service_merrill.v_yield_curve",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_merrill.v_yield_curve"
+            }
+        },
+        {
+            "object_name": "service_msci.v_currency_rate",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_currency_rate"
+            }
+        },
+        {
+            "object_name": "service_msci.v_dividend",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_dividend"
+            }
+        },
+        {
+            "object_name": "service_msci.v_esg_ratings_environment",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_esg_ratings_environment"
+            }
+        },
+        {
+            "object_name": "service_msci.v_esg_ratings_governance",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_esg_ratings_governance"
+            }
+        },
+        {
+            "object_name": "service_msci.v_esg_ratings_social",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_esg_ratings_social"
+            }
+        },
+        {
+            "object_name": "service_msci.v_index_country_region",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_index_country_region"
+            }
+        },
+        {
+            "object_name": "service_msci.v_index_country_weight",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_index_country_weight"
+            }
+        },
+        {
+            "object_name": "service_msci.v_index_report",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_index_report"
+            }
+        },
+        {
+            "object_name": "service_msci.v_security",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_security"
+            }
+        },
+        {
+            "object_name": "service_msci.v_security_small_cap",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_msci.v_security_small_cap"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_corporate_action",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_corporate_action"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_datawarehouse_holding_detail",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_datawarehouse_holding_detail"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_datawarehouse_operation_partial",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_datawarehouse_operation_partial"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_datawarehouse_sedol_official_listing",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_datawarehouse_sedol_official_listing"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_datawarehouse_trading_exchange",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_datawarehouse_trading_exchange"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_etf_holding_aggregate",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_etf_holding_aggregate"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_etf_holding_detail",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_etf_holding_detail"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_etf_investment_vehicle",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_etf_investment_vehicle"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_etf_package_header",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_etf_package_header"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_etf_portfolio",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_etf_portfolio"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_etf_portfolio_breakdown",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_etf_portfolio_breakdown"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_index_close",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_index_close"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_index_open",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_index_open"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_security_close",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_security_close"
+            }
+        },
+        {
+            "object_name": "service_mstar.v_security_open",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_mstar.v_security_open"
+            }
+        },
+        {
+            "object_name": "service_rimes.v_indice_compositions_actions",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_rimes.v_indice_compositions_actions"
+            }
+        },
+        {
+            "object_name": "service_rimes.v_indice_compositions_obligations",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_rimes.v_indice_compositions_obligations"
+            }
+        },
+        {
+            "object_name": "service_rimes.v_indice_niveaux_actions",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_rimes.v_indice_niveaux_actions"
+            }
+        },
+        {
+            "object_name": "service_rimes.v_indice_niveaux_obligations",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_rimes.v_indice_niveaux_obligations"
+            }
+        },
+        {
+            "object_name": "service_russell.v_constituent_day",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_russell.v_constituent_day"
+            }
+        },
+        {
+            "object_name": "service_russell.v_constituent_month",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_russell.v_constituent_month"
+            }
+        },
+        {
+            "object_name": "service_russell.v_index",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_russell.v_index"
+            }
+        },
+        {
+            "object_name": "service_snp.v_discounted_spreads_middle_market",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_discounted_spreads_middle_market"
+            }
+        },
+        {
+            "object_name": "service_snp.v_discounted_spreads_sl_b_rated",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_discounted_spreads_sl_b_rated"
+            }
+        },
+        {
+            "object_name": "service_snp.v_discounted_spreads_stm_by_narrow_rating",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_discounted_spreads_stm_by_narrow_rating"
+            }
+        },
+        {
+            "object_name": "service_snp.v_elli_discounted_spreads",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_elli_discounted_spreads"
+            }
+        },
+        {
+            "object_name": "service_snp.v_index_detail_adjusted",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_index_detail_adjusted"
+            }
+        },
+        {
+            "object_name": "service_snp.v_index_detail_close",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_index_detail_close"
+            }
+        },
+        {
+            "object_name": "service_snp.v_index_summary",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_index_summary"
+            }
+        },
+        {
+            "object_name": "service_snp.v_spbdal_spllc",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_snp.v_spbdal_spllc"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_dex_maple_overall_bond_index_constituent",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_dex_maple_overall_bond_index_constituent"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_dex_money_market_index_summary",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_dex_money_market_index_summary"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_dex_real_return_bond_index_constituent",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_dex_real_return_bond_index_constituent"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_dex_real_return_bond_index_summary",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_dex_real_return_bond_index_summary"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_dex_universe_bond_index_constituent",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_dex_universe_bond_index_constituent"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_dex_universe_bond_index_summary",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_dex_universe_bond_index_summary"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_scmhpdom",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_scmhpdom"
+            }
+        },
+        {
+            "object_name": "service_tmx.v_smiquote",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM service_tmx.v_smiquote"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_AssessmentData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_AssessmentData"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_AssessmentLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_AssessmentLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_EntityLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_EntityLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_EntitySector",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_EntitySector"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_IndustryChar",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_IndustryChar"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_InstrumentLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_InstrumentLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_InstrumentSector",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_InstrumentSector"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_InstrumentToEntity",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_InstrumentToEntity"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_RatingData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_RatingData"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_RatingIdentifier",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_RatingIdentifier"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_RatingLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_RatingLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GISF_SecurityLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GISF_SecurityLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_AssessmentData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_AssessmentData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_AssessmentLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_AssessmentLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_EntityLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_EntityLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_EntitySector",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_EntitySector"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_IndustryChar",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_IndustryChar"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_InstrumentLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_InstrumentLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_InstrumentSector",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_InstrumentSector"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_InstrumentToEntity",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_InstrumentToEntity"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_RatingData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_RatingData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_RatingIdentifier",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_RatingIdentifier"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_RatingLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_RatingLevelData"
+            }
+        },
+        {
+            "object_name": "snp.v_GSIF_SecurityLevelData",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM snp.v_GSIF_SecurityLevelData"
+            }
+        },
+        {
+            "object_name": "ssgx.v_gx_private_equity_index",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ssgx.v_gx_private_equity_index"
+            }
+        },
+        {
+            "object_name": "ssgx.v_gxpei_holding_company_hq_exposure_weight",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM ssgx.v_gxpei_holding_company_hq_exposure_weight"
+            }
+        },
+        {
+            "object_name": "trucost.v_compffe_cpucpcu_allyr",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM trucost.v_compffe_cpucpcu_allyr"
+            }
+        },
+        {
+            "object_name": "trucost.v_env_mucu_allyr",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM trucost.v_env_mucu_allyr"
+            }
+        },
+        {
+            "object_name": "trucost.v_sectorrev_cpucpcu_allyr",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM trucost.v_sectorrev_cpucpcu_allyr"
+            }
+        },
+        {
+            "object_name": "tullett.v_atm_swaptions_skews",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tullett.v_atm_swaptions_skews"
+            }
+        },
+        {
+            "object_name": "tullett.v_cap_floor_surfaces",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tullett.v_cap_floor_surfaces"
+            }
+        },
+        {
+            "object_name": "tullett.v_global_grid_ii_swaption_skews",
+            "requests": {
+                "max_base_file_date": "SELECT MAX(base_file_date) FROM tullett.v_global_grid_ii_swaption_skews"
+            }
+        }
+    ]
+}

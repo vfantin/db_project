@@ -53,7 +53,6 @@ def build_chunk(separator, nb_separators, chunk, line, line_position):
     return chunk
 
 def main():
-    #Use literal string with r .. it's called raw string .. r is for treat backslashes as literal characters
     #path = fr'C:\Users\fantv\Desktop\Logs\*.log'
     path = fr'C:\Users\fantv\Desktop\Logs\DRM-WEBAPI-2021-04-07.log'
 
